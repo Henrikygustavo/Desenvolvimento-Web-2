@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Formulário de Contato</title>
+    <title>Exercíocios 1 e 2</title>
   <!-- <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,7 +39,7 @@
 </head>
 <body>
 
-<h2>Formulário de Contato</h2>
+<h2>Exercíocios 1 e 2</h2>
 
 <form action="processa.php" method="post">
     <div class="form-group">
