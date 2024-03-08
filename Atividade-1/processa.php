@@ -1,5 +1,4 @@
 <?php
-// Verifica se a requisição é do tipo POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<h1>Dados Recebidos</h1>";
     echo "<p><strong>Nome:</strong> " . htmlspecialchars($_POST['nome']) . "</p>";
@@ -15,6 +14,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<h2>Método da Requisição</h2>";
     echo $_SERVER["REQUEST_METHOD"];
 } else {
-    // Se a requisição não for POST, redireciona de volta ao formulário
     header("Location: index.php");
 }

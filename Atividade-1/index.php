@@ -3,39 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercíocios 1 e 2</title>
-  <!-- <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type=text], input[type=email], input[type=tel], textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0 22px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-        button {
-            background-color: #04AA6D;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-        }
-        button:hover {
-            opacity: 0.8;
-        }
-    </style> -->
 </head>
 <body>
 
