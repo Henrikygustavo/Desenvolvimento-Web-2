@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercíocios 1 e 2</title>
+<head>
 </head>
+
 <body>
 
 <h2>Exercíocios 1 e 2</h2>
