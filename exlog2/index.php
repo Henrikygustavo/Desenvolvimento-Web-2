@@ -9,5 +9,5 @@ use Monolog\Handler\StreamHandler;
 $log = new Logger('name');
 $log->pushHandler(new StreamHandler('you.log', Level::Warning));
 
-$log->Warning('Foo');
-$log->error('Bar');
+$log->warning('Q isso pae');
+$log->error('Tudo errado essas coisa');
