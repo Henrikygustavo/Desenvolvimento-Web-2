@@ -2,11 +2,15 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-// Crie uma nova instância do mPDF
+// Crie um novo objeto mPDF
 $mpdf = new \Mpdf\Mpdf();
 
-// Adicione algum conteúdo ao PDF (opcional)
-$mpdf->WriteHTML('<h1>Hello World!</h1>');
+// HTML que você deseja converter em PDF
+$html = '<h1>Meu Primeiro PDF com mPDF</h1>
+<p>Este é um exemplo simples de como gerar um PDF usando mPDF.</p>';
 
-// Gere o PDF
-$mpdf->Output('meu_arquivo.pdf', 'D');
+// Adicione o HTML ao PDF
+$mpdf->WriteHTML($html);
+
+// Saída do PDF
+$mpdf->Output('meu_pdf.pdf', 'D');
